@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';  // Optional, you can also use fetch
 import Header from '../Components/Header';
-import Banner from '../Components/banner';
+import Banner from '../Components/Banner';
 
 const Home = () => {
     const [products, setProducts] = useState([]);
