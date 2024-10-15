@@ -5,7 +5,7 @@ import mainbanner from '../assets/mainbanner.png'
 function Banner() {
   return (
     <div className="max-w-6xl mx-auto grid grid-cols-3 gap-4 py-11">
-            {/* Main Banner */}
+         
             <div className="col-span-2">
                 <img
                     src={mainbanner}
@@ -13,7 +13,7 @@ function Banner() {
                     className="w-full h-full object-cover rounded-lg"
                 />
             </div>
-            {/* Right side small banners */}
+           
             <div className="flex flex-col gap-4">
                 <img
                     src={banner}
