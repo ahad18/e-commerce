@@ -27,8 +27,28 @@ const products = [
 
 const Home = () => {
   return (
+    <>
+    <Header />
     <div className='container mx-auto'>
-      <Header />
+      <div className='flex justify-center w-auto'>
+        <div className='bg-black border rounded-2xl bg-cover py-40 px-96 '>
+<h1 className='text-white'>hello</h1>
+        </div>
+        <div>
+        <div className='bg-black border rounded-2xl bg-cover py-28 px-24 '>
+<h1 className='text-white'>hello</h1>
+        </div>
+        <div className='bg-black border rounded-2xl bg-cover py-40 px-24 '>
+<h1 className='text-white'>hello</h1>
+        </div>
+        <div className='bg-black border rounded-2xl bg-cover py-40 px-24 '>
+<h1 className='text-white'>hello</h1>
+        </div>
+        </div>
+        
+      
+      </div>
+      
       <h1>Shop Now</h1>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '20px' }}>
         {products.map(product => (
@@ -42,6 +62,7 @@ const Home = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 
