@@ -26,7 +26,7 @@ const Home = () => {
             <Header />
             <div className='container mx-auto'>
                 <Banner />
-                <h1 className="text-2xl font-bold mb-6">Shop Now</h1>
+                <h1 className="text-2xl font-bold text-center mb-6">Shop Now</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {products.map(product => (
                         <div key={product.id} className="border p-4 rounded-lg shadow-md">

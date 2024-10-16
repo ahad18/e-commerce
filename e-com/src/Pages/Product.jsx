@@ -58,6 +58,8 @@ const Product = () => {
           <p className='pt-4'>{product.description}</p>
           <h3 className='font-bold pt-4'>Price: Rs {product.price}/-</h3>
           <Rating name="read-only" value={product.rating.rate} readOnly />
+          <h3 className='font-bold pt-4'>Category: {product.category}</h3>
+          <h3 className='font-bold pt-4'>Quantity: {product.rating.count}</h3>
           <div>
             <Button style={{ backgroundColor: "#000" }} variant="contained" onClick={handleClick}>add to cart</Button>
             <Button color='black' style={{ borderColor: '#000', marginLeft: '20px' }} variant="outlined" onClick={showalert}>check out</Button>

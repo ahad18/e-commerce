@@ -45,7 +45,7 @@ function Header() {
             <Link to='/' className='font-semibold'>Home</Link>
             <Link to='/shop'className='font-semibold'>Shop</Link>
             <Link to='/cart'className='font-semibold'>Cart</Link>
-            <Link to='/sales'className='font-semibold'>Sales</Link>
+            <Link to='/practiceapi' className='font-semibold'>Practice</Link>
        
        
     </div>
