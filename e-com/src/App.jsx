@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import Product from './Pages/Product';
 import Practiceapi from './Pages/Practiceapi';
+import Admin from './Pages/Admin';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/product/:id" element={<Product />} />
         <Route path="/practiceapi" element={<Practiceapi />} />
+        <Route path="/admin-login" element={<Admin />} />
       </Routes>
     </Router>
   );
