@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/product/:id" element={<Product />} />
         <Route path="/practiceapi" element={<Practiceapi />} />
-        <Route path="/admin-login" element={<Admin />} />
+        <Route path="/login" element={<Admin />} />
       </Routes>
     </Router>
   );
